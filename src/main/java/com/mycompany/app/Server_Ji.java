@@ -22,7 +22,7 @@ import com.google.cloud.firestore.FirestoreOptions;
 
 public class Server_Ji implements Runnable
 {
-	//----- SQL statements
+	//----- SQL sPOOLatements
 	private Connection connection;
 	private PreparedStatement AddNewUser;
 	private PreparedStatement DeleteUser;
@@ -105,7 +105,7 @@ public class Server_Ji implements Runnable
 			throw new IllegalArgumentException(errorMessage); 	// compile time exception, should catch it before compile
 		}
 		int numCores = Runtime.getRuntime().availableProcessors();
-		threadPool = Executors.newFixedThreadPool(numCores);
+		threadPool = Executors.newFixedThreadPool(100);
 		new Thread(this).start();
 	}
 	
