@@ -423,7 +423,7 @@ public class Server_Ji implements Runnable
 //----check if user is online
 	public void UserisOnline(int account_number, ObjectOutputStream oos)
 	{
-		if(isOnline(account_number))
+		if(UserisOnline(account_number))
 			{ 
 			whosIn.replace(account_number, oos); 
 			System.out.println("successfully updated whosIn");
@@ -447,7 +447,7 @@ public class Server_Ji implements Runnable
 	{
 		for(int id : list)
 		{
-			if(isOnline(id)) 
+			if(UserisOnline(id)) 
 			{
 				try
 				{
