@@ -437,7 +437,7 @@ public class Server_Ji implements Runnable
 			System.out.println(whosIn);
 		}
 	}
-	public boolean isOnline(int account_number)
+	public boolean UserisOnline(int account_number)
 	{
 		if(whosIn.containsKey(account_number)) return true;
 		else return false;
