@@ -14,5 +14,5 @@ In your teminal, move to the directory you just save the ClientFor_* files, run 
 javac ClientFor_login.java
 java ClientFor_login
 ```
-<h3>Great! You should see this pop up on your screen: <h3>
-<img src="/ScreenShots/login.png" width="300"/>
+<h5>Great! You should see this pop up on your screen: <h5>
+<img src="/ScreenShots/login.png" width="400"/>
