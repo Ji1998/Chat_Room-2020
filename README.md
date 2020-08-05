@@ -15,10 +15,10 @@ javac ClientFor_login.java
 java ClientFor_login
 ```
 <h5>Great! You should see this pop up on your screen: <h5>
-<img src="/ScreenShots/login.png" width="400"/>
+<img src="/ScreenShots/login.png" width="600"/>
 <h5> Don't have an account yet? sign up here. Then you will receive the account number shown in the app. And remember account number is how you can log in<h5>
-<img src="ScreenShots/signup.png" width="400"/>
+<img src="ScreenShots/signup.png" width="600"/>
 <h5> Then you can begin your chat! Click user's name to send private message, and "clear selection" to send public message<h5>
-<img src="ScreenShots/chat.JPG" width = "400"/>
+<img src="ScreenShots/chat.JPG" width = "600"/>
 <h5> Want to change your name and password? click on setting<h5>
-<img src="ScreenShots/setting.JPG" width = "400"/>
+<img src="ScreenShots/setting.JPG" width = "600"/>
