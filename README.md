@@ -22,3 +22,5 @@ java ClientFor_login
 <img src="ScreenShots/chat.JPG" width = "600"/>
 <h5> Want to change your name and password? click on setting<h5>
 <img src="ScreenShots/setting.JPG" width = "600"/>
+##For Developers
+
