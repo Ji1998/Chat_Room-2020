@@ -204,9 +204,9 @@ public class Server_Ji implements Runnable
 	}
 
 	//----get all users's account number and return a vector
-	public Vector getAllUserID()
+	public Vector<Integer> getAllUserID()
 	{
-		Vector userList = new Vector();
+		Vector<Integer> userList = new Vector<Integer>();
 		try
 		{
 			ApiFuture<QuerySnapshot> future = db.collection("User_Information_Center").get();
