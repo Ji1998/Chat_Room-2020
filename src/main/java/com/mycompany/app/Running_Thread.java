@@ -52,11 +52,13 @@ public class Running_Thread implements Runnable
 						System.out.println("successfully log in"); 
 						server.sendList();
 						String note = server.getUserMSGS(account_number);
-						System.out.println("55:" + note);
-						String[] noteArray = note.split("\\|");
-						for(String s : noteArray)
-						{
-							oos.writeObject(s);
+						if(!note.isBlank())
+						{	
+							String[] noteArray = note.split("\\|");
+							for(String s : noteArray)
+							{
+								oos.writeObject(s);
+							}
 						}
 						
 					}

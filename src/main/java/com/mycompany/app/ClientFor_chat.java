@@ -545,6 +545,7 @@ public class ClientFor_chat implements ActionListener, ListSelectionListener, Fo
 		{
 			onlineArray = new String[0];
 			onlineList.setListData(onlineArray);
+			return true;
 		}
 			
 		try
@@ -582,6 +583,7 @@ public class ClientFor_chat implements ActionListener, ListSelectionListener, Fo
 			{
 				offlineArray = new String[0];
 				offlineList.setListData(offlineArray);
+				return true;
 			}
 		try 
 		{	

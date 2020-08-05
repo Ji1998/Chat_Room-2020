@@ -89,6 +89,13 @@ public class Server_Ji implements Runnable
 	// 	System.out.println("Born: " + document.getLong("born"));
 	//   }
 	
+	//**load  offline list since last time
+		Vector<Integer> listBeforeLaunch = getAllUserID();
+		for( Integer a : listBeforeLaunch )
+		{
+			whosNotIn.add(a);
+			
+		}
 
 		
 	//** build socket connection
