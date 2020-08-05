@@ -24,6 +24,10 @@ java ClientFor_login
 <img src="ScreenShots/setting.JPG" width = "600"/>
  
 ## For Developers
-
- 
+This app is seperated into 5 modules, which are "Server", "Running_Thread", "ClientFor_login", "ClientFor_chat", "ClientFor_setting" in order for future development and maintance. 
+* "Server":  responsible for build connection with GCP and Socket connection with client
+* "Running_Thread": responsible for receive client's thread and make corespondence feedback
+* "ClientFor_login" : responsible for loading login UI and check user name & password with database, also resonpisble for signup
+* "ClientFor_chat" : responsible for update online user list and offline userlist, and also deal with sending & receving message
+* "ClientFor_setting": responsible for settings including change password, change name etc...
 
