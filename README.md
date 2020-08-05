@@ -31,3 +31,17 @@ This app is seperated into 5 modules, which are "Server", "Running_Thread", "Cli
 * "ClientFor_chat" : responsible for update online user list and offline userlist, and also deal with sending & receving message
 * "ClientFor_setting": responsible for settings including change password, change name etc...
 
+### Build with
+[MAVEN](https://maven.apache.org/install.html)
+[GCP Compute Engine](https://cloud.google.com/)
+[Firebase](https://firebase.google.com/)
+[IBM DB2](https://www.ibm.com/analytics/db2?p1=Search&p4=43700056057814401&p5=e&cm_mmc=Search_Google-_-1S_1S-_-WW_NA-_-ibm%20db2_e&cm_mmca7=71700000060951781&cm_mmca8=kwd-300711378925&cm_mmca9=EAIaIQobChMIivaagaSD6wIVCkmGCh26YAsJEAAYASAAEgI-K_D_BwE&cm_mmca10=452224447397&cm_mmca11=e&gclid=EAIaIQobChMIivaagaSD6wIVCkmGCh26YAsJEAAYASAAEgI-K_D_BwE&gclsrc=aw.ds)
+[Java Swing](https://docs.oracle.com/javase/tutorial/uiswing/)
+[JDBC SQL](https://docs.microsoft.com/en-us/sql/connect/jdbc/microsoft-jdbc-driver-for-sql-server?view=sql-server-ver15)
+
+
+
+
+### Server Part(server & running_thread)
+* 
+
