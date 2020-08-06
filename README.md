@@ -33,12 +33,12 @@ This app is seperated into 5 modules, which are "Server", "Running_Thread", "Cli
 * "ClientFor_setting": responsible for settings including change password, change name etc...
 
 ### Build with
-* [MAVEN](https://maven.apache.org/install.html)
-* [GCP Compute Engine](https://cloud.google.com/)
-* [Firebase](https://firebase.google.com/)
-* [IBM DB2](https://www.ibm.com/analytics/db2?p1=Search&p4=43700056057814401&p5=e&cm_mmc=Search_Google-_-1S_1S-_-WW_NA-_-ibm%20db2_e&cm_mmca7=71700000060951781&cm_mmca8=kwd-300711378925&cm_mmca9=EAIaIQobChMIivaagaSD6wIVCkmGCh26YAsJEAAYASAAEgI-K_D_BwE&cm_mmca10=452224447397&cm_mmca11=e&gclid=EAIaIQobChMIivaagaSD6wIVCkmGCh26YAsJEAAYASAAEgI-K_D_BwE&gclsrc=aw.ds)
-* [Java Swing](https://docs.oracle.com/javase/tutorial/uiswing/)
-* [JDBC SQL](https://docs.microsoft.com/en-us/sql/connect/jdbc/microsoft-jdbc-driver-for-sql-server?view=sql-server-ver15)
+* [MAVEN](https://maven.apache.org/install.html): Manage the POM file and *.java file which is for connecting Firebase and code in Server.java
+* [GCP Compute Engine](https://cloud.google.com/): A place where the server code will run and it also provides a IP address & a port number
+* [Firebase](https://firebase.google.com/): User data including: name, password, ID, messages, register time, VIP.... will be saved into the Firebase
+* [IBM DB2](https://www.ibm.com/analytics/db2?p1=Search&p4=43700056057814401&p5=e&cm_mmc=Search_Google-_-1S_1S-_-WW_NA-_-ibm%20db2_e&cm_mmca7=71700000060951781&cm_mmca8=kwd-300711378925&cm_mmca9=EAIaIQobChMIivaagaSD6wIVCkmGCh26YAsJEAAYASAAEgI-K_D_BwE&cm_mmca10=452224447397&cm_mmca11=e&gclid=EAIaIQobChMIivaagaSD6wIVCkmGCh26YAsJEAAYASAAEgI-K_D_BwE&gclsrc=aw.ds): This is the "SQL" version of database, which is used for "SQL" version of the server(I may not push this version onto the github).
+* [Java Swing](https://docs.oracle.com/javase/tutorial/uiswing/): The client GUI is built by Java Swing. 
+* [JDBC SQL](https://docs.microsoft.com/en-us/sql/connect/jdbc/microsoft-jdbc-driver-for-sql-server?view=sql-server-ver15): "SQL" for the IBM DB2 
 
 
 ###  Several functions implemented from perspective of developers:
