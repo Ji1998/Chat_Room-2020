@@ -50,3 +50,5 @@ This app is seperated into 5 modules, which are "Server", "Running_Thread", "Cli
 * The client GUI is implemented through Java Swing
 * The thread of receving response from server and the GUI thread is different. Hence the GUI won't stuck if the client is waitig for response from the server
 
+## Author
+* Any questions? Get connection with guangsen@usc.edu
