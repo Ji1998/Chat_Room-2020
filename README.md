@@ -2,7 +2,7 @@
 This is a chat room supports both public and private chat. As a new user, all you have to do is to sign up and chat !
 
 ## Getting started
-Following instructions will help you run this chat room on your laptop. Be ready to connect with thousands of others in the world!
+Following instructions will help you run get a copy of the client & server on your own laptop for development and testing purpose.
 
 ### Prerequisites
 1. Go to [Java SE Downloads](https://www.oracle.com/java/technologies/javase-downloads.html) to download the latest version of JDK
